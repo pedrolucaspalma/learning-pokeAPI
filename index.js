@@ -53,8 +53,9 @@ function renderPokemon(pokeData){
     //tipo(s) do pokemon
     let pokeTypes = document.createElement('ul');
     createTypes(pokeData.types, pokeTypes);
-    pokeContainer.append(pokeName, pokeNumber, pokeTypes, pokeWeight);
 
+    //adicionar as informacoes do pokemon no container;
+    pokeContainer.append(pokeName, pokeNumber, pokeTypes, pokeWeight);
     allPokemonContainer.appendChild(pokeContainer);
 }
 
