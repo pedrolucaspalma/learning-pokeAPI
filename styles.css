@@ -1,0 +1,10 @@
+#poke-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.pokemon{
+    margin: 5px;
+    padding-left: 5px;
+    border: 1px solid black;
+}

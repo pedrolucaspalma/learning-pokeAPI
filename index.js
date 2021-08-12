@@ -36,6 +36,7 @@ function renderPokemon(pokeData){
 
     //criar uma div para cada pokemon
     let pokeContainer = document.createElement("div");
+    pokeContainer.className = "pokemon"
     
     //nome do pokemon
     let pokeName = document.createElement('h4');
